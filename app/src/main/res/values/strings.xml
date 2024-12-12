@@ -1,4 +1,20 @@
 <resources>
     <string name="app_name">Final exam app</string>
     <string name="intro_text">Hello, you are in the Final Exam App!</string>
+    <string name="welcome_message">welcome</string>
+    <string name="snackbar_message">This is a Snackbar message.</string>
+    <string name="snackbar_action_text">Click Me</string>
+    <string name="snackbar_action_toast">Action clicked!</string>
+    <string name="save">Save</string>
+    <string name="delete">Delete</string>
+    <string name="time_hint">time</string>
+    <string name="description_hint">description</string>
+    <string name="title_hint">title</string>
+    <string name="add_task">Add</string>
+    <string name="task_reminder">reminder</string>
+    <string name="task_due">due time</string>
+    <string name="cancel">Cancel</string>
+    <string name="task_added">Task added</string>
+    <string name="fields_empty">Empty fields</string>
+    <string name="task_deleted">task deleted</string>
 </resources>

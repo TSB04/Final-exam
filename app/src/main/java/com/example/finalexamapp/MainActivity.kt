@@ -14,8 +14,13 @@ class MainActivity : AppCompatActivity() {
         // Toast example
         Toast.makeText(this, getString(R.string.welcome_message), Toast.LENGTH_LONG).show()
 
-        // Snackbar example
+        // Snackbar with a button
         val rootView = findViewById<View>(android.R.id.content)
-        Snackbar.make(rootView, getString(R.string.snackbar_message), Snackbar.LENGTH_SHORT).show()
+        Snackbar.make(rootView, getString(R.string.snackbar_message), Snackbar.LENGTH_INDEFINITE) // Indefinite duration to allow interaction
+            .setAction(getString(R.string.snackbar_action_text)) {
+                // Handle button click
+                Toast.makeText(this, getString(R.string.snackbar_action_toast), Toast.LENGTH_SHORT).show()
+            }
+            .show()
     }
 }

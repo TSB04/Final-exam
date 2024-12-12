@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Final exam app</string>
+    <string name="intro_text">Hello, you are in the Final Exam App!</string>
+</resources>
